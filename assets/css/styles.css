@@ -1,0 +1,247 @@
+/* All */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Nunito";
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1300px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: #fff;
+    position: relative;
+    height: 100vh;
+}
+/* All */
+
+
+/* -----------Navbar ----------- */
+.navbar {
+    display: flex;
+    margin-left: auto;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.navbar .menu {
+    display: flex;
+    padding-top: 7px;
+    align-items: center;
+    justify-self: center;
+    margin-left: 510px;
+}
+
+.navbar .menu a {
+    color: var(--black, #444b59);
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.navbar .homeicon {
+    margin-left: auto;
+    color: #0f1b4c;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+/*  -----------Navbar----------- */
+
+
+/* -----------Hero info----------- */
+.content  h1 {
+    color: var(--black-25, #444b59);
+    font-size: 3.6rem;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    margin-top: 100px;
+}
+
+.content .greeding {
+    color: var(--black-25, #444b59);
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    margin-top: 12px;
+}
+
+.content .greeding span {
+    color: var(--blue-17, #8699da);
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+}
+/* -----------Hero info----------- */
+
+
+/* -----------Login layout----------- */
+.content .login-layer {
+    margin-top: 64px;
+}
+
+.login-layer .username {
+    color: #444b59;
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+}
+
+.user-box {
+    margin-top: 24px;
+    width: 534px;
+    height: 81px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 80px;
+    border: 2px solid var(--dark-blue-18, #789ade);
+    background: var(--white, #fff);
+    text-align: center;
+    align-content: center;
+}
+
+.user-box > p {
+    color: var(--blue-19, #c8d3f9);
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+}
+
+.login-layer .password {
+    margin-top: 36px;
+    color: var(--black-25, #444b59);
+    font-size: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+}
+
+.login-layer .pass-box {
+    margin-top: 24px;
+    display: flex;
+    height: 81px;
+    width: 534px;
+    max-width: 100%;
+    max-height: auto;
+    padding: 24px 32px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 80px;
+    border: 2px solid var(--dark-blue-18, #789ade);
+    background: var(--white, #fff);
+}
+
+.options {
+    width: 534px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options .remember {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    gap: 16px;
+}
+
+.remember > p {
+    color: var(--black-25, #444b59);
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.forget-pass {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    color: var(--blue-27, #8699da);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2p;
+}
+
+.sign-in {
+    margin-top: 58px;
+    height: 81px;
+    width: 534px;
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: var(--blue-27, #8699da);
+    box-shadow: 4px 8px 12px 0px rgba(78, 99, 141, 0.06),
+        0px 4px 12px 0px rgba(200, 211, 249, 0.6) inset;
+}
+
+.sign-in .button p {
+    color: var(--white, #fff);
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 2.8px;
+}
+
+.more-options {
+    display: flex;
+    margin-top: 48px;
+    width: 534px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-page {
+    width: 534px;
+    max-width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+}
+/* -----------Login layout----------- */
+
+/* -----------Page image----------- */
+.page-image {
+    margin-top: 200px;
+}
+
+.hero-content {
+    display: flex;
+}
+/* -----------Page image----------- */
+
+/* CSS for EngLish (Menu List) */
+.english {
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+    align-items: center;
+}
